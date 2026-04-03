@@ -1,4 +1,5 @@
 import React, { use } from 'react';
+import User from '../User/User';
 
 const Users2 = ({ usersPromise }) => {
   const usersData = use(usersPromise)
@@ -6,6 +7,11 @@ const Users2 = ({ usersPromise }) => {
   return (
     <div>
       <h2>This is Users-2</h2>
+      <div>
+        {usersData.map(user => (
+          <User key={user.id} user={user}></User>
+        ))}
+      </div>
     </div>
   );
 };
