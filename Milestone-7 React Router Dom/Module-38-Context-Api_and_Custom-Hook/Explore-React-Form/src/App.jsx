@@ -1,13 +1,17 @@
 
 import './App.css'
+import SimpleForm from './components/SimpleForm/SimpleForm';
 
 function App() {
 
   return (
     <>
-      <h2>Explore React Form</h2>
+      <div style={{marginTop: '50px'}}>
+        <h1>Explore React Form</h1>
+        <SimpleForm></SimpleForm>
+      </div>
     </>
-  )
+  );
 }
 
 export default App
