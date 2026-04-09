@@ -2,7 +2,7 @@ import React from 'react';
 import heroImg from '../../assets/hero-book.png'
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 container mx-auto min-h-[70vh]">
+    <div className="hero bg-base-200 max-w-10/12 mx-auto min-h-[70vh]">
       <div className="hero-content flex-col w-full px-20 justify-between lg:flex-row-reverse">
         <img src={heroImg} className="max-w-sm rounded-lg " />
         <div>

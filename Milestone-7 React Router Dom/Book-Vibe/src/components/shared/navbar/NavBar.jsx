@@ -39,8 +39,8 @@ const NavBar = () => {
     
   
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm container mx-auto ">
+    <nav className="bg-base-100 shadow-sm">
+      <div className="navbar max-w-10/12 mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +77,7 @@ const NavBar = () => {
           <a className="btn btn-accent text-white">Button</a>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
