@@ -1,0 +1,10 @@
+
+const dashboard = () => {
+  return (
+    <div>
+      <h2 className="text-3xl">This is Dashboard</h2>
+    </div>
+  );
+};
+
+export default dashboard;
