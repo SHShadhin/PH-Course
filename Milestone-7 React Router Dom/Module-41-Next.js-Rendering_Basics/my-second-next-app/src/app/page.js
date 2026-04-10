@@ -1,5 +1,6 @@
 import Counter from "@/components/Counter";
 import Header from "@/components/Header";
+import ToDos from "./todos/page";
 
 export default function Home() {
   console.log('Server side component')
@@ -10,6 +11,7 @@ export default function Home() {
 
         <Header></Header>
         <Counter></Counter>
+        <ToDos></ToDos>
 
 
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
