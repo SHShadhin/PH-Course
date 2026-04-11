@@ -1,4 +1,8 @@
 import React from 'react';
+export const metadata = {
+  title: 'PH Play Store',
+  description: 'PH Play Store is an App management website portal',
+};
 
 const AppsPage = () => {
   return (
