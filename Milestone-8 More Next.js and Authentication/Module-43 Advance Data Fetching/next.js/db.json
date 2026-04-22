@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Wireless RW Headphones",
+      "name": "Wireless Mouse",
       "price": 39.99,
       "category": "Electronics",
       "stock": 25,
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "name": "Backpack",
+      "name": "Backpack MadMax",
       "price": 39.99,
       "category": "Accessories",
       "stock": 20,
