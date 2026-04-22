@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless RW Headphones",
+      "price": 39.99,
+      "category": "Electronics",
+      "stock": 25,
+      "rating": 4.5,
+      "image": "https://example.com/images/headphones.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "price": 89.99,
+      "category": "Electronics",
+      "stock": 15,
+      "rating": 4.3,
+      "image": "https://example.com/images/smartwatch.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 49.99,
+      "category": "Fashion",
+      "stock": 30,
+      "rating": 4.6,
+      "image": "https://example.com/images/shoes.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Backpack",
+      "price": 39.99,
+      "category": "Accessories",
+      "stock": 20,
+      "rating": 4.2,
+      "image": "https://example.com/images/backpack.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "price": 29.99,
+      "category": "Electronics",
+      "stock": 18,
+      "rating": 4.4,
+      "image": "https://example.com/images/speaker.jpg"
+    }
+  ]
+}
