@@ -1,4 +1,7 @@
-
+export const metadata = {
+  title: 'My Dashboard',
+  description: '...',
+};
 const dashboard = () => {
   return (
     <div>

@@ -1,4 +1,7 @@
-
+export const metadata = {
+  title: 'Contact',
+  description: 'Contact Users',
+};
 const ContactPage = () => {
   return (
     <div>
@@ -6,6 +9,5 @@ const ContactPage = () => {
     </div>
   );
 };
-
 
 export default ContactPage;

@@ -1,4 +1,7 @@
-
+export const metadata = {
+  title: 'Support',
+  description: '...',
+};
 const SupportPage = () => {
   return (
     <div>
