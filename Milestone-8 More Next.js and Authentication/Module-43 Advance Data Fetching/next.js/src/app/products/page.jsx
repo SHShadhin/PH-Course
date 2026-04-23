@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const getProducts = async () => {
-  const res = await fetch('http://localhost:5000/products', {next: {revalidate: 20}});
+  const res = await fetch('http://localhost:5000/products');
   return res.json();
 }
 const PorductsPage = async() => {
